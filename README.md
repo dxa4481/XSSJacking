@@ -5,7 +5,7 @@ Self-XSS is a type of XSS that typically can only be triggered by a user typing 
 
 Clickjacking, is an attack that frames a website of a logged in user, typically sets the opacity of the frame to 0, and forces a victim to interact with their account, on a different website, unbeknownst to them.
 
-They are both often excluded from bug bounty payouts. Here I will show a relatively practical way to exucute XSS payloads on sites vulnerable to both conditions
+They are both often excluded from bug bounty payouts. Here I will show a relatively practical way to execute XSS payloads on sites vulnerable to both conditions
 
 
 ## How it works
